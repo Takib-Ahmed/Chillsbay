@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-button {
+    @apply bg-primary rounded-md px-7 py-2 text-white font-bold hover:bg-primary/80 transition-colors;
+}
+
+.secondary-button {
+    @apply bg-transparent rounded-lg px-4 py-2 text-primary hover:text-white font-bold hover:bg-primary border border-primary transition-colors;
+}
+
+.container {
+    @apply w-full max-w-[1100px] mx-auto px-3;
+}
